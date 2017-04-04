@@ -1,0 +1,93 @@
+{
+/*
+	// Place your snippets for HTML here. Each snippet is defined under a snippet name and has a prefix, body and 
+	// description. The prefix is what is used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
+	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. Placeholders with the 
+	// same ids are connected.
+	// Example:
+	"Print to console": {
+		"prefix": "log",
+		"body": [
+			"console.log('$1');",
+			"$2"
+		],
+		"description": "Log output to console"
+	}
+*/
+	"ah_wwawing": {
+		"prefix": "ah_wwawing",
+		"body": [
+			"<!DOCTYPE HTML>",
+			"<html lang=\"ja\">",
+			"<head>",
+			"  <meta charset=\"UTF-8\">",
+			"  <meta http-equiv=\"Pragma\" content=\"no-cache\">",
+			"  <meta http-equiv=\"Cache-Control\" content=\"no-cache\">",
+			"  <meta http-equiv=\"Expires\" content=\"0\">",
+			"  <link rel=\"stylesheet\" href=\"style.css\">",
+			"  <link rel=\"stylesheet\" href=\"wwa.css\">",
+			"  <script src=\"./audio/audio.min.js\"></script>",
+			"  <script src=\"wwa.js\"></script>",
+			"  <title>[$3] $1 - Aokashi Home</title>",
+			"</head>",
+			"<body>",
+			"  <h1>[$3] $1</h1>",
+			"  <div id=\"wrapper\">",
+			"    <div id=\"wwa-wrapper\" class=\"wwa-size-box\" data-wwa-mapdata=\"$2.dat\" data-wwa-loader=\"wwaload.js\" data-wwa-urlgate-enable=\"true\" data-wwa-title-img=\"cover.gif\">",
+			"    </div>",
+			"  </div>",
+			"  <footer class=\"footer\">",
+			"    <div class=\"footer-copyright\">",
+			"      <p>Internet RPG \"<a href=\"http://www.wwajp.com\">World Wide Adventure</a>\" ©1996-2009 NAO</p>",
+			"      <p>\"<a href=\"http://wwawing.com/\">WWA Wing</a>\" ©2013-2015 Project Wing/Matsuyuki(rmn.)</p>",
+			"    </div>",
+			"    <nav class=\"footer-nav\">",
+			"      <ul>",
+			"        <li><a href=\"java_$2.html\" title=\"$1(Javaアプレット)\">Javaアプレットの動作に切り替える</a></li>",
+			"        <li><a href=\"list_js.html\" title=\"WWA作品一覧\">WWA作品一覧に戻る</a></li>",
+			"        <li><a href=\"./\" title=\"WWA トップページ\">トップページに戻る</a></li>",
+			"      </ul>",
+			"    </nav>",
+			"  </footer>",
+			"</body>",
+			"</html>"
+		],
+		"description": "Aokashi HomeのWWA Wingのプレイページを作成します。"
+	},
+	"ah_wwa": {
+		"prefix": "ah_wwa",
+		"body": [
+			"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//EN\">",
+			"<html lang=\"ja\">",
+			"<head>",
+			"  <meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\">",
+			"  <link rel=\"stylesheet\" type=\"text/css\" href=\"style.css\">",
+			"  <title>[$3] $1(Javaアプレット) - Aokashi Home</title>",
+			"</head>",
+			"<body>",
+			"  <h1>[$3] $1(Javaアプレット)</h1>",
+			"  <applet code=\"WWA.class\" width=\"560\" height=\"440\">",
+			"    <param value=\"$2.dat\" name=\"parammapname\">",
+			"    <ul>",
+			"      <li>Java実行環境がインストールされていないか、サポートされていません</li>",
+			"      <li>詳細は<a href=\"http://www.wwajp.com/wwafaq.html\" title=\"WWAのよくある質問\">WWAのよくある質問</a>を参照してください</li>",
+			"    </ul>",
+			"  </applet>",
+			"  <div class=\"footer\">",
+			"    <div class=\"footer-copyright\">",
+			"      <p>Internet RPG \"<a href=\"http://wwajp.com\" title=\"World Wide Adventure\">World Wide Adventure</a>\" (c)1996-2009 NAO</p>",
+			"    </div>",
+			"    <div class=\"footer-nav\">",
+			"      <ul>",
+			"        <li><a href=\"$2.html\" title=\"$1\">WWA Wingの動作に戻す</a></li>",
+			"        <li><a href=\"list_js.html\" title=\"WWA作品一覧\">WWA作品一覧に戻る</a></li>",
+			"        <li><a href=\"./\" title=\"WWA トップページ\">トップページに戻る</a></li>",
+			"      </ul>",
+			"    </div>",
+			"  </div>",
+			"</body>",
+			"</html>"
+		],
+		"description": "Aokashi HomeのWWAプレイページを作成します。"
+	}
+}
