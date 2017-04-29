@@ -1,5 +1,6 @@
 // 既定の設定を上書きするには、このファイル内に設定を挿入します
 {
+    "editor.fontSize": 16,
     "editor.fontFamily": "Consolas, Meiryo, monospace",
     "editor.tabSize": 2,
     "editor.renderWhitespace": "boundary",
@@ -10,5 +11,8 @@
     "window.menuBarVisibility": "default",
     "workbench.colorTheme": "Tomorrow Night Blue",
 		"editor.insertSpaces": false,
-		"terminal.integrated.shell.windows": "C:\\WINDOWS\\Sysnative\\bash.exe"
-	}
+    "terminal.integrated.shell.windows": "C:\\WINDOWS\\Sysnative\\bash.exe",
+    "files.associations": {
+      "*.cgi": "perl"
+    }
+  }
