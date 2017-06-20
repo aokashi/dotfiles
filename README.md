@@ -6,3 +6,4 @@ dotfiles だからといって、. から始まるファイルだけしか無い
 ## 利用しているファイル
 
 - Tomorrow Night - https://github.com/chriskempson/tomorrow-theme
+- [ArchLinux] LaTeX環境を整える - http://qiita.com/Aruneko/items/6d073447bff91addd512

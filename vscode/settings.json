@@ -8,7 +8,7 @@
     "editor.wordWrap": "off",
     "workbench.iconTheme": "vs-seti",
     "markdown.preview.fontFamily": "'游ゴシック体', '游ゴシック', 'YuGothic', sans-serif",
-    "window.menuBarVisibility": "default",
+    "window.menuBarVisibility": "toggle",
     "workbench.colorTheme": "Tomorrow Night Blue",
 		"editor.insertSpaces": false,
     "terminal.integrated.shell.windows": "C:\\WINDOWS\\Sysnative\\bash.exe",
