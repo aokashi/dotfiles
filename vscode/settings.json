@@ -10,9 +10,10 @@
     "markdown.preview.fontFamily": "'游ゴシック体', '游ゴシック', 'YuGothic', sans-serif",
     "window.menuBarVisibility": "toggle",
     "workbench.colorTheme": "Tomorrow Night Blue",
-		"editor.insertSpaces": false,
-    "terminal.integrated.shell.windows": "C:\\WINDOWS\\Sysnative\\bash.exe",
+		"editor.insertSpaces": true,
     "files.associations": {
       "*.cgi": "perl"
-    }
+    },
+    "editor.minimap.renderCharacters": false,
+    "window.zoomLevel": 0
   }

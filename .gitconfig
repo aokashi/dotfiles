@@ -1,0 +1,8 @@
+[user]
+	name = Aokashi
+	email = Aokashi.Towa@Gmail.com
+[core]
+	editor = vim
+	fileMode = false
+[color]
+	ui = true
