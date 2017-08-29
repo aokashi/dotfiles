@@ -9,10 +9,10 @@ ln -sfn $dir/vscode/snippets ~/.config/Code/User/
 
 # vim
 ln -sf $dir/.vimrc ~/.vimrc
-ln -sf $dir/.vim ~/.vim
+ln -sf $dir/.vim ~/
 
 # gitconfig
-ln -sf $dir/.gifconfig ~/.gitconfig
+ln -sf $dir/.gitconfig ~/.gitconfig
 
 # for Linux
 if [ $1 = "linux" ]; then
