@@ -3,9 +3,11 @@
 dir=$(pwd)
 
 # Visual Studio Code
-ln -sf $dir/vscode/settings.json ~/.config/Code/User/settings.json
-rm -r ~/.config/Code/User/snippets
-ln -sfn $dir/vscode/snippets ~/.config/Code/User/
+if [ $1 = "linux" -o $1 = "mac" ]; then
+  ln -sf $dir/vscode/settings.json ~/.config/Code/User/settings.json
+  rm -r ~/.config/Code/User/snippets
+  ln -sfn $dir/vscode/snippets ~/.config/Code/User/
+fi
 
 # vim
 ln -sf $dir/.vimrc ~/.vimrc

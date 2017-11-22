@@ -33,10 +33,10 @@ dotfiles だからといって、. から始まるファイルだけしか無い
 # インストールするには
 - Windows環境の場合は install.ps1 を実行します。
 - UNIX系環境の場合は install.sh を実行します。
-  - 引数に mac と加えるとmacOS上で必要な項目が加わります。
-  - 引数に linux と加えるとLinux(GUI)上で必要な項目が加わります。
+  - 引数に `mac` と加えるとmacOS上で必要な項目が加わります。
+  - 引数に `linux` と加えるとLinux(GUI)上で必要な項目が加わります。
+  - 引数に `cui` と加えるとCUI環境で必要なものだけが加わります。
 - 加えて、gnome-terminal にプロファイルを追加したい場合は setup-theme.sh を実行します。
-- VPS環境の場合はSSH接続せず install_vps.sh を実行します(最近手を加えていないです)。
 
 ## 利用しているファイル
 - Tomorrow Night - https://github.com/chriskempson/tomorrow-theme
