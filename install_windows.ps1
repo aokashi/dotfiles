@@ -1,2 +1,4 @@
-Copy-Item ~\dotfiles\vscode\settings.json ~\AppData\Roaming\Code\User\settings.json 
-Copy-Item ~\dotfiles\vscode\snippets\*    ~\AppData\Roaming\Code\User\snippets\
+$path = "~\AppData\Roaming\Code\User"
+
+New-Item -ItemType SymbolicLink -Path $path -Name settings.json -Value .\vscode\settings.json
+New-Item -ItemType SymbolicLink -Path $path -Name snippets -Value .\vscode\snippets
