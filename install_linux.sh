@@ -9,9 +9,10 @@ ln -sfn $dir/vscode/snippets ~/.config/Code/User/
 
 [ $(has "nodebrew") = 0 ] && installNodebrew
 
-for file in linux/.??*
+cd linux
+for file in .??*
 do
-  cat "$dir"/"$file" >> ~/"$file"
+  cat "$file" >> ~/"$file"
 done
 
 exit 0
