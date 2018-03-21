@@ -1,1 +1,1 @@
-source /usr/share/nvm/init-nvm.sh
+export PATH=/home/aokashi/.nodebrew/current/bin:$PATH

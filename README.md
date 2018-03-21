@@ -46,5 +46,7 @@ dotfiles だからといって、. から始まるファイルだけしか無い
 
 ## 利用しているファイル
 - nodebrew - https://github.com/hokaccha/nodebrew
+- rbenv - https://github.com/rbenv/rbenv
+  - ruby-build - https://github.com/rbenv/ruby-build
 - Tomorrow Night - https://github.com/chriskempson/tomorrow-theme
 - [ArchLinux] LaTeX環境を整える - http://qiita.com/Aruneko/items/6d073447bff91addd512
