@@ -8,6 +8,7 @@ rm -r ~/.config/Code/User/snippets
 ln -snfv $dir/vscode/snippets ~/.config/Code/User/
 
 [ $(has "nodebrew") = 0 ] && installNodebrew
+[ $(has "rbenv") = 0 ] && installRbenv
 
 cd linux
 for file in .??*

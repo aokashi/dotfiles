@@ -22,6 +22,7 @@ function installRbenv() {
   cd ~/.rbenv
   src/configure
   make -C src
+  installRubyBuild
 }
 
 function installRubyBuild() {

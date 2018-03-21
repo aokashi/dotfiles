@@ -1,1 +1,1 @@
-export PATH=/home/aokashi/.nodebrew/current/bin:$PATH
+export PATH=$HOME/.nodebrew/current/bin:$HOME/.rbenv/bin:$PATH
