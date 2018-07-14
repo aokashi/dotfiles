@@ -13,3 +13,4 @@ set visualbell
 set wildmode:full
 
 colorscheme Tomorrow-Night-Blue
+set wildignore+=versions/*,cache/*

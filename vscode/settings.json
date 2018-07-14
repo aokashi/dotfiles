@@ -16,5 +16,6 @@
   },
   "editor.minimap.renderCharacters": false,
   "window.zoomLevel": 0,
-  "terminal.integrated.fontSize": 15
+  "terminal.integrated.fontSize": 15,
+  "git.autofetch": true
 }
