@@ -7,8 +7,7 @@ ln -snfv $dir/vscode/settings.json ~/.config/Code/User/settings.json
 rm -r ~/.config/Code/User/snippets
 ln -snfv $dir/vscode/snippets ~/.config/Code/User/
 
-[ $(has "nodebrew") = 0 ] && installNodebrew
-[ $(has "rbenv") = 0 ] && installRbenv
+[ $(has "anyenv") = 0 ] && installAnyenv .bashrc
 
 cd linux
 for file in .??*
