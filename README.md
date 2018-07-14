@@ -16,25 +16,7 @@ dotfiles だからといって、. から始まるファイルだけしか無い
   - dotfiles のインストールに必要な関数を集めたファイルです。
   - ソフトウェアのインストール有無の確認や設定ファイルのリンクなどが含まれています。
 
-# 含まれている項目
-
-## エイリアス設定
-- .bash_profile
-  - macOSのシェルのファイルです
-- .vimrc, .vim/
-  - vimの設定ファイルです
-  - vimディレクトリにはカラースキームの設定ファイルが含まれています
-- .latexmkrc
-  - LaTeXを簡単に制作できる便利なファイルです
-
-## 直接コピー
-- .zshrc
-  - Arch Linuxのシェルのファイルです
-  - Arch Linuxのシェル設定パッケージ(grml-zsh-config)が入っている都合上、片道方向のコピーになります
-- vscode/
-  - Visual Studio Codeの設定ディレクトリです
-
-# インストールには使わない項目
+# 含まれているけどインストールには使わない項目
 オプションファイルです。必要に応じてコピーします。
 
 - fonts/
@@ -45,8 +27,6 @@ dotfiles だからといって、. から始まるファイルだけしか無い
 - 加えて、gnome-terminal にプロファイルを追加したい場合は setup-theme.sh を実行します。
 
 ## 利用しているファイル
-- nodebrew - https://github.com/hokaccha/nodebrew
-- rbenv - https://github.com/rbenv/rbenv
-  - ruby-build - https://github.com/rbenv/ruby-build
+- anyenv - https://github.com/riywo/anyenv
 - Tomorrow Night - https://github.com/chriskempson/tomorrow-theme
 - [ArchLinux] LaTeX環境を整える - http://qiita.com/Aruneko/items/6d073447bff91addd512
