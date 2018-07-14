@@ -4,5 +4,6 @@
 [core]
 	editor = vim
 	fileMode = false
+	autocrlf = input
 [color]
 	ui = true
