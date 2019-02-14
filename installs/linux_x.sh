@@ -2,6 +2,7 @@
 
 source install.sh
 
+# このファイルは未完成です！！
 # VSCode
 ln -snfv $dir/vscode/settings.json ~/.config/Code/User/settings.json
 rm -r ~/.config/Code/User/snippets
