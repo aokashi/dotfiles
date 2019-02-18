@@ -1,6 +1,6 @@
 #!/bin/bash
 
-source lib/util.sh
+source lib/link_util.sh
 
 # dotfilesディレクトリ設定
 dir=$(pwd)
