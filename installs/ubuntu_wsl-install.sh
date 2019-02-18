@@ -7,9 +7,10 @@ source lib/install_packages.sh
 
 # インストール先のプロファイル
 install_profile=~/.profile
+echo "source ~/.path_profile" >> "$install_profile"
 
 # anyenv
-[ $(has_command anyenv) -ne 1 ] && install_anyenv "$install_profile"
+[ $(has_command anyenv) -ne 1 ] && install_anyenv
 # fish
 [ $(has_command fish) -ne 1 ] && add_fish_repository_and_exec
 # yarn
@@ -28,7 +29,7 @@ sudo apt install -y --no-install-recommends \
 
 
 # fishインストール下準備
-#   fish shell は bash と構文が異なるため自動化ができないことから .bash_profile で起動するようにする
+#   fish shell は bash と構文が異なるため自動化ができないことからプロファイルで起動するようにする
 #   https://launchpad.net/~fish-shell/+archive/ubuntu/release-2
 function add_fish_repository_and_exec() {
   sudo apt-add-repository ppa:fish-shell/release-3

@@ -12,9 +12,6 @@ has_command() {
 }
 
 # anyenvをインストールします
-# $1 anyenv のPATH設定を入れるファイル (.bashrc とか)
 install_anyenv() {
   git clone https://github.com/riywo/anyenv ~/.anyenv
-  echo 'export PATH="$HOME/.anyenv/bin:$PATH"' >> $1
-  echo 'eval "$(anyenv init -)"' >> $1
 }
