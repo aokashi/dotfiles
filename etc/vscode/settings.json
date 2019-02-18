@@ -1,15 +1,12 @@
 // 既定の設定を上書きするには、このファイル内に設定を挿入します
 {
   "editor.fontSize": 14,
-  "editor.fontFamily": "Cica, Consolas, Meiryo, monospace",
+  "editor.fontFamily": "Source Han Code JP, Cica, Consolas, Meiryo, monospace",
   "editor.tabSize": 2,
   "editor.renderWhitespace": "boundary",
   "editor.renderIndentGuides": true,
   "editor.wordWrap": "off",
-  "workbench.iconTheme": "vs-seti",
   "markdown.preview.fontFamily": "'游ゴシック体', '游ゴシック', 'YuGothic', sans-serif",
-  "window.menuBarVisibility": "toggle",
-  "workbench.colorTheme": "Tomorrow Night Blue",
   "editor.insertSpaces": true,
   "files.associations": {
     "*.cgi": "perl"
@@ -17,5 +14,8 @@
   "editor.minimap.renderCharacters": false,
   "window.zoomLevel": 0,
   "terminal.integrated.fontSize": 15,
-  "git.autofetch": true
+  "git.autofetch": true,
+  "workbench.colorTheme": "Tomorrow Night Blue",
+  "window.menuBarVisibility": "toggle",
+  "workbench.editor.tabCloseButton": "off"
 }
