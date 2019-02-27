@@ -14,5 +14,8 @@ do
   link_to_home "$dotfiles" "$file"
 done
 
+# fish
+link "$dotfiles" "etc/fish/config.fish" ".config/fish/"
+
 cd "$dir"
 exit 0

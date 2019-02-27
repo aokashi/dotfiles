@@ -1,7 +1,7 @@
 // 既定の設定を上書きするには、このファイル内に設定を挿入します
 {
   "editor.fontSize": 14,
-  "editor.fontFamily": "Source Han Code JP, Cica, Consolas, Meiryo, monospace",
+  "editor.fontFamily": "Source Han Code JP, Menlo, Monaco, Cica, Consolas, Meiryo, monospace",
   "editor.tabSize": 2,
   "editor.renderWhitespace": "boundary",
   "editor.renderIndentGuides": true,
