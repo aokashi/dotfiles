@@ -17,5 +17,6 @@
   "git.autofetch": true,
   "workbench.colorTheme": "Tomorrow Night Blue",
   "window.menuBarVisibility": "toggle",
-  "workbench.editor.tabCloseButton": "off"
+  "workbench.editor.tabCloseButton": "off",
+  "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\wsl.exe"
 }
