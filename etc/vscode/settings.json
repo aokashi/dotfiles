@@ -18,5 +18,8 @@
   "workbench.colorTheme": "Tomorrow Night Blue",
   "window.menuBarVisibility": "toggle",
   "workbench.editor.tabCloseButton": "off",
-  "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\wsl.exe"
+  "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\wsl.exe",
+  "javascript.referencesCodeLens.enabled": true,
+  "typescript.implementationsCodeLens.enabled": true,
+  "typescript.referencesCodeLens.enabled": true
 }
