@@ -6,20 +6,28 @@
   "editor.renderWhitespace": "boundary",
   "editor.renderIndentGuides": true,
   "editor.wordWrap": "off",
-  "markdown.preview.fontFamily": "'游ゴシック体', '游ゴシック', 'YuGothic', sans-serif",
   "editor.insertSpaces": true,
+  "editor.minimap.renderCharacters": false,
+  "markdown.preview.fontFamily": "'游ゴシック体', '游ゴシック', 'YuGothic', sans-serif",
   "files.associations": {
     "*.cgi": "perl"
   },
-  "editor.minimap.renderCharacters": false,
-  "window.zoomLevel": 0,
-  "terminal.integrated.fontSize": 15,
-  "git.autofetch": true,
   "workbench.colorTheme": "Tomorrow Night Blue",
-  "window.menuBarVisibility": "toggle",
   "workbench.editor.tabCloseButton": "off",
-  "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\wsl.exe",
+  "git.autofetch": true,
+  "window.zoomLevel": 0,
+  "window.menuBarVisibility": "toggle",
+  "terminal.integrated.fontSize": 15,
+  "terminal.integrated.shell.windows": "cmd.exe",
+  "terminal.integrated.env.windows": {
+    "CMDER_ROOT": "C:\\tools\\Cmder" // Cmder のルートディレクトリ (インストール先が変わったら変更すること)
+  },
+  "terminal.integrated.shellArgs.windows": [
+    "/k",
+    "%CMDER_ROOT%\\vendor\\bin\\vscode_init.cmd"
+  ],
   "javascript.referencesCodeLens.enabled": true,
   "typescript.implementationsCodeLens.enabled": true,
-  "typescript.referencesCodeLens.enabled": true
+  "typescript.referencesCodeLens.enabled": true,
+  "plantuml.exportFormat": "png",
 }
