@@ -7,3 +7,5 @@
 	autocrlf = input
 [color]
 	ui = true
+[credential]
+	helper = manager
