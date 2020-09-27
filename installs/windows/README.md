@@ -12,7 +12,7 @@
 ### powershell_setup
 参考元: [チュートリアル: Windows ターミナルで　Powerline をセットアップする](https://docs.microsoft.com/ja-jp/windows/terminal/tutorials/powerline-setup)
 
-1. [PowerShellCore をインストール](https://github.com/PowerShell/PowerShell)
+1. [最新版の PowerShell をインストール](https://github.com/PowerShell/PowerShell)
 2. Powerline フォント ([Cascadia Code](https://github.com/microsoft/cascadia-code)) をインストール
 3. 管理者権限で PowerShell をセットアップ (`powershell_setup.ps1`)
     - もしかしたら管理者権限でなくても OK かもしれない
