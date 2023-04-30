@@ -11,7 +11,9 @@ has_command() {
   fi
 }
 
-# anyenvをインストールします
-install_anyenv() {
-  git clone https://github.com/riywo/anyenv ~/.anyenv
+# homebrew をインストールします
+install_homebrew() {
+  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+  (echo; echo 'eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"') >> /home/aokashi/.profile
+  eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 }
